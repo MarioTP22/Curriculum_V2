@@ -74,7 +74,7 @@
 
 ## 🌐 Demo en Vivo
 
-🔗 **[Ver Portfolio en Vivo](https://mariotp22.github.io/portfolio)** *(reemplaza con tu URL real)*
+🔗 **[Ver Portfolio en Vivo](https://mariotp22.github.io/Curriculum_V2/)** *(reemplaza con tu URL real)*
 
 ### Screenshots
 
