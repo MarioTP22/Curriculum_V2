@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mario Torres Pascual - IT Technician & Digital Strategy Specialist | Portfolio & Blog">
+    <meta name="keywords" content="Mario Torres, IT, AI, Automation, Digital Marketing, Portfolio, Barcelona">
+    <meta name="author" content="Mario Torres Pascual">
+    <title>Mario Torres Pascual | IT & Digital Strategy</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Favicon (opcional - añade tu icono en la carpeta img) -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <div class="lang-selector">
+            <div class="lang-current" id="langCurrent">
+                <span class="lang-flag">🇬🇧</span>
+                <span class="lang-text">English</span>
+            </div>
+            <div class="lang-dropdown">
+                <button class="lang-btn active" data-lang="en" data-flag="🇬🇧" data-name="English">
+                    <span>🇬🇧</span> English
+                </button>
+                <button class="lang-btn" data-lang="es" data-flag="🇪🇸" data-name="Español">
+                    <span>🇪🇸</span> Español
+                </button>
+                <button class="lang-btn" data-lang="ca" data-flag="🏴" data-name="Català">
+                    <span>🏴</span> Català
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>Mario Torres</h2>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link" data-translate="nav_home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-translate="nav_about">About</a></li>
+                <li><a href="#experience" class="nav-link" data-translate="nav_experience">Experience</a></li>
+                <li><a href="#skills" class="nav-link" data-translate="nav_skills">Skills</a></li>
+                <li><a href="#blog" class="nav-link" data-translate="nav_blog">Blog</a></li>
+                <li><a href="#contact" class="nav-link" data-translate="nav_contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-image-container">
+                <img src="img/profile.jpg" alt="Mario Torres Pascual" class="hero-profile-image">
+            </div>
+            <h1 class="hero-title">
+                <span data-translate="hero_hello">Hello, I'm</span> 
+                <span class="highlight">Mario Torres Pascual</span>
+            </h1>
+            <h2 class="hero-subtitle" data-translate="hero_subtitle">IT Technician & Digital Strategy Specialist</h2>
+            <p class="hero-description" data-translate="hero_description">
+                Passionate about creating innovative solutions that merge IT with digital marketing, 
+                applying AI and automation to drive productivity and innovation.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary" data-translate="hero_btn_contact">Get in Touch</a>
+                <a href="#about" class="btn btn-secondary" data-translate="hero_btn_learn">Learn More</a>
+            </div>
+            <div class="social-links">
+                <a href="mailto:mariotorrespascual@pm.me" aria-label="Email" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://github.com/MarioTP22" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mario-torres-pascual-1a920b202" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/_torres_sk20" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title" data-translate="about_title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-translate="about_p1">
+                        I am a curious and proactive individual with a technical profile and commercial vision. 
+                        I enjoy creating solutions that integrate IT with digital marketing, applying artificial 
+                        intelligence and automation to boost productivity and innovation.
+                    </p>
+                    <p data-translate="about_p2">
+                        Currently pursuing a Master's in AI Automation at UDIA, I combine technical expertise 
+                        with a passion for continuous learning and professional development. My experience spans 
+                        from IT systems management to digital marketing strategy, always with a focus on 
+                        delivering measurable results.
+                    </p>
+                    <p data-translate="about_p3">
+                        Beyond technology, I'm deeply committed to community service. I've volunteered with elderly 
+                        residents and disadvantaged children in Pallejà, and I'm excited about upcoming opportunities 
+                        with the European Solidarity Corps in Hungary.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">577+</span>
+                            <span class="stat-label" data-translate="about_stat_days">Days of Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label" data-translate="about_stat_projects">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label" data-translate="about_stat_languages">Languages</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-info">
+                    <div class="info-card">
+                        <div class="info-card-image">
+                            <img src="img/profile.jpg" alt="Mario Torres" class="profile-photo">
+                        </div>
+                        <h3 data-translate="about_info_title">Personal Information</h3>
+                        <ul class="info-list">
+                            <li><i class="fas fa-map-marker-alt"></i> <strong data-translate="about_location">Location:</strong> Pallejà, Barcelona, Spain</li>
+                            <li><i class="fas fa-birthday-cake"></i> <strong data-translate="about_birth">Birth:</strong> July 9, 2004</li>
+                            <li><i class="fas fa-envelope"></i> <strong>Email:</strong> mariotorrespascual@pm.me</li>
+                            <li><i class="fas fa-phone"></i> <strong data-translate="about_phone">Phone:</strong> +34 656-514-935</li>
+                            <li><i class="fas fa-car"></i> <strong data-translate="about_licenses">Licenses:</strong> B, A1 + Vehicle</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2 class="section-title" data-translate="exp_title">Experience & Education</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025 - <span data-translate="timeline_present">Present</span></span>
+                        <h3 data-translate="exp1_title">Master's in AI Automation</h3>
+                        <h4>UDIA - Digital Intelligence & Automation University</h4>
+                        <p data-translate="exp1_desc">
+                            Advanced training in artificial intelligence and workflow automation, focusing on 
+                            designing and implementing AI-driven solutions for business optimization.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025 - <span data-translate="timeline_present">Present</span></span>
+                        <h3 data-translate="exp2_title">Real Estate Agent Certification (API)</h3>
+                        <h4>Instituto Numancia, Barcelona</h4>
+                        <p data-translate="exp2_desc">
+                            Professional certification in real estate management and property consulting.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 - 2025</span>
+                        <h3 data-translate="exp3_title">Digital Marketing & Strategy Manager</h3>
+                        <h4>Joan XXIII Bellvitge Marketing Center</h4>
+                        <p data-translate="exp3_desc">
+                            Led strategic management of commercial workflows. Designed and implemented specialized 
+                            advertising campaigns in the energy sector. Coordinated marketing teams and supervised results.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023</span>
+                        <h3 data-translate="exp4_title">Vocational Degree in IT Systems</h3>
+                        <h4>Jesuïtes Bellvitge, Barcelona</h4>
+                        <p data-translate="exp4_desc">
+                            Comprehensive training in computer systems, networks, programming, and technical support. 
+                            Developed strong foundations in software development and IT infrastructure management.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021 - 2022</span>
+                        <h3 data-translate="exp5_title">IT Support Technician & Web Developer</h3>
+                        <h4>Escola Pla de les Vinyes, Cervelló</h4>
+                        <p data-translate="exp5_desc">
+                            Managed technical support for computer equipment. Contributed to website design and development. 
+                            Provided troubleshooting and maintenance for educational technology infrastructure.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title" data-translate="skills_title">Skills & Competencies</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 data-translate="skills_tech_title">Technical Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span data-translate="skills_office">Office Tools & Productivity</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span data-translate="skills_programming">Programming & Development</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span data-translate="skills_systems">IT Systems Management</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span data-translate="skills_ai">AI & Automation</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span data-translate="skills_marketing">Digital Marketing Strategy</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 data-translate="skills_languages_title">Languages</h3>
+                    <div class="language-skills">
+                        <div class="language-item">
+                            <span data-translate="skills_spanish">Spanish</span>
+                            <span class="language-level" data-translate="skills_native">Native</span>
+                        </div>
+                        <div class="language-item">
+                            <span data-translate="skills_catalan">Catalan</span>
+                            <span class="language-level" data-translate="skills_native">Native</span>
+                        </div>
+                        <div class="language-item">
+                            <span data-translate="skills_english">English</span>
+                            <span class="language-level" data-translate="skills_intermediate">Intermediate</span>
+                        </div>
+                    </div>
+
+                    <h3 class="mt-4" data-translate="skills_soft_title">Soft Skills</h3>
+                    <ul class="soft-skills-list">
+                        <li><i class="fas fa-check"></i> <span data-translate="skills_soft1">Team Leadership</span></li>
+                        <li><i class="fas fa-check"></i> <span data-translate="skills_soft2">Problem Solving</span></li>
+                        <li><i class="fas fa-check"></i> <span data-translate="skills_soft3">Active Listening</span></li>
+                        <li><i class="fas fa-check"></i> <span data-translate="skills_soft4">Innovation & Creativity</span></li>
+                        <li><i class="fas fa-check"></i> <span data-translate="skills_soft5">Adaptability</span></li>
+                        <li><i class="fas fa-check"></i> <span data-translate="skills_soft6">Cross-cultural Communication</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section blog">
+        <div class="container">
+            <h2 class="section-title" data-translate="blog_title">Latest Blog Posts</h2>
+            
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image" style="background-image: url('https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600')"></div>
+                    <div class="blog-content">
+                        <span class="blog-date">November 2025</span>
+                        <h3 data-translate="blog1_title">My Journey with AI Automation</h3>
+                        <p data-translate="blog1_excerpt">
+                            Exploring how artificial intelligence is transforming business processes and my experience 
+                            implementing automation solutions in real-world projects.
+                        </p>
+                        <a href="#blog" class="blog-link" data-translate="blog_read_more">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image" style="background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600')"></div>
+                    <div class="blog-content">
+                        <span class="blog-date">October 2025</span>
+                        <h3 data-translate="blog2_title">Volunteering & European Solidarity Corps</h3>
+                        <p data-translate="blog2_excerpt">
+                            Reflecting on my community service experiences in Pallejà and my excitement about 
+                            volunteering opportunities in Hungary through ESC.
+                        </p>
+                        <a href="#blog" class="blog-link" data-translate="blog_read_more">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image" style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600')"></div>
+                    <div class="blog-content">
+                        <span class="blog-date">September 2025</span>
+                        <h3 data-translate="blog3_title">Digital Marketing in the Energy Sector</h3>
+                        <p data-translate="blog3_excerpt">
+                            Lessons learned from designing and implementing specialized advertising campaigns 
+                            for energy companies and managing cross-functional marketing teams.
+                        </p>
+                        <a href="#blog" class="blog-link" data-translate="blog_read_more">Read More →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title" data-translate="contact_title">Get in Touch</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info-section">
+                    <h3 data-translate="contact_subtitle">Let's Connect</h3>
+                    <p data-translate="contact_text">
+                        I'm always open to discussing new projects, creative ideas, or opportunities 
+                        to be part of your vision. Feel free to reach out!
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <p><a href="mailto:mariotorrespascual@pm.me">mariotorrespascual@pm.me</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong data-translate="contact_phone">Phone</strong>
+                                <p><a href="tel:+34656514935">+34 656-514-935</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong data-translate="contact_location">Location</strong>
+                                <p>Pallejà, Barcelona, Spain</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links-contact">
+                        <a href="https://github.com/MarioTP22" target="_blank" rel="noopener noreferrer" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mario-torres-pascual-1a920b202" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/_torres_sk20" target="_blank" rel="noopener noreferrer" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="mailto:mariotorrespascual@pm.me" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" required>
+                        <label for="name" data-translate="form_name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required>
+                        <label for="email" data-translate="form_email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" required>
+                        <label for="subject" data-translate="form_subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" required></textarea>
+                        <label for="message" data-translate="form_message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary" data-translate="form_submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3>Mario Torres Pascual</h3>
+                    <p data-translate="footer_tagline">IT Technician & Digital Strategy Specialist</p>
+                </div>
+                <div class="footer-center">
+                    <div class="footer-social">
+                        <a href="https://github.com/MarioTP22" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mario-torres-pascual-1a920b202" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/_torres_sk20" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="mailto:mariotorrespascual@pm.me" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <p>&copy; 2025 Mario Torres Pascual</p>
+                    <p data-translate="footer_rights">All rights reserved.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-translate="footer_made">Made with passion and code ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./js/translations.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
